@@ -1,0 +1,218 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Page Title</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     background-image: url('https://cdn.dribbble.com/users/1306079/screenshots/4128498/compiling-day-night.gif') ;
+      /* background-image: url("https://imgs.search.brave.com/yOuaM3SVWI70kd9Yx1fpUDEUpGW6TV85LYMtbKxismc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50c3RhdGljLnRl/Y2hnaWcuY29tL3Ro/dW1iL21zaWQtNzYz/NTQ3MTIsd2lkdGgt/ODAwLHJlc2l6ZW1v/ZGUtNC9Sb2FkbWFw/LXRvLWJlY29tZS1h/LXN1Y2Nlc3NmdWwt/cHJvZ3JhbW1lci5q/cGc_MjE2ODMx"); */
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      
+      padding: 20px;
+
+      position: relative;
+      display: inline-flexbox;
+     margin-left: 60px;
+    
+    }
+
+    .center-heading {
+      color: rgb(255, 255, 255);
+    font-size: 70px;
+    display: flex ;
+    background-color: rgb(58, 105, 146);
+    text-align: center;
+   margin-left: 20px;
+    width: auto;
+    height: auto;
+    }
+
+    .main {
+      margin-top: 130px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      width: calc(20% - 20px);
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      padding: 15px;
+      height: auto;
+      border: 1px solid #743232;
+      border-radius: 5px;
+      background-color: #4d3434ad;
+      perspective: 1000px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.5s;
+ 
+    }
+
+    .card:hover {
+      transform: rotateY(360deg)
+    }
+
+    .card {
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: transform 0.5s;
+    }
+
+    .card img,
+    .card p {
+      backface-visibility: hidden;
+    } 
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10%;
+      margin-top: 10px;
+    }
+
+    .card p {
+      color: #fff;
+      margin-top: 30px;
+      font-size: 16px;
+    }
+    .text-overlay {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      display: none;
+      background-color: rgba(0, 28, 105, 0.911);
+      padding: 10px;
+      border: 1px solid #ccc;
+      color: white;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+     .card:hover .text-overlay {
+      display: block;
+      width: 167px;
+      height: 200px;
+      margin-top: -34px;
+      border-radius:20px ;
+    }
+    @media (max-width: 768px) {
+            .card{
+                max-width: 50%;
+            }
+        }
+  </style>
+</head>
+<body>
+
+  <div class="container"><br><br><br>
+    <h1 class="center-heading">&nbsp;Learn Funny to Upgrade your skill</h1>
+    <div class="main">
+      <div class="row">
+        <div class="column">
+          <div class="card"><a href="programming/programming.html"><img src="coder.png" alt="Image 1">
+            <div class="text-overlay" ><h1 style="margin-top: 71px;">coder</h1></div></a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card"><a href="developer/developer.html"><img src="develop.png" alt="Image 2">
+            <div class="text-overlay" ><h1 style="margin-top: 71px;">Developer</h1></div></a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card"><a href="cyber/cyber.html"> 
+            <img src="https://media.giphy.com/media/hvYgID7Os6JPje3AeE/giphy.gif" alt="Image 3">
+            <div class="text-overlay" ><h2 style="margin-top: 71px;">CyberSecurity</h1></div></a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card"><a href="app_develop/app_dev.html"><img src="design.png" alt="Image 4">
+            <div class="text-overlay" ><h1 style="margin-top: 71px;">Design</h1></div></a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card"><a href="data/data.html"><img src="dat" alt="Image 5">
+            <div class="text-overlay" ><h1 style="margin-top: 71px;">Data</h1></div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five Images in One Row</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .img-container {
+      padding: 10px; /* Adjust as needed */
+    }
+    @media (max-width: 768px) {
+            /* Adjust image size for smaller screens */
+            .img-fluid {
+                max-width: 50%;
+            }
+        }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="coder.png" class="img-fluid" alt="Image 1">
+    </div>
+    </div>
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="develop.png" class="img-fluid" alt="Image 2">
+    </div>
+  </div>
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="https://media.giphy.com/media/hvYgID7Os6JPje3AeE/giphy.gif" class="img-fluid" alt="Image 3">
+    </div>
+  </div>
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="design.png" class="img-fluid" alt="Image 4">
+    </div>
+    </div>
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="data.png" class="img-fluid" alt="Image 5">
+    </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
