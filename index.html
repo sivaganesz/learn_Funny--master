@@ -115,6 +115,7 @@
       border-radius:20px ;
     }
     @media (max-width: 768px) {
+          
             .card{
                 max-width: 50%;
             }
@@ -165,51 +166,142 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Five Images in One Row</title>
+  <title>learn_program</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     .img-container {
-      padding: 10px; /* Adjust as needed */
+      padding: 10px; 
     }
     @media (max-width: 768px) {
-            /* Adjust image size for smaller screens */
+           
             .img-fluid {
                 max-width: 50%;
             }
         }
+        
+    .center-heading {
+      color: rgb(255, 255, 255);
+    font-size: 70px;
+    display: flex ;
+    background-color: rgb(58, 105, 146);
+    text-align: center;
+
+    width: auto;
+    height: auto;
+    }
+        .card  {
+      width: 50%;
+      height: auto;
+      
+      background-color: yellowgreen;
+    
+        }
+        .card img  {
+      width: 90%;
+      height: 80%;
+      margin-top:15px;
+   
+      background-color: yellowgreen;
+    
+        }
+        .card:hover {
+      transform: rotateY(360deg)
+    }
+    .card {
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: transform 0.5s;
+    }
+    .text-overlay {
+      position: absolute;
+      top: 0px;
+      background-color: rgba(0, 28, 105, 0.911);
+      padding: 10px;
+      width: 100%;
+      display: none;
+      text-align: center;
+      height: auto;
+      border: 1px solid #ccc;
+      color: white;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+     .card:hover .text-overlay {
+      display: block;
+      width: 100%;
+      height: 100%;
+    
+      text-align: center;
+      border-radius:20px ;
+    }
+    h5{
+      text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     background-image: url('https://cdn.dribbble.com/users/1306079/screenshots/4128498/compiling-day-night.gif') ;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   </style>
 </head>
 <body>
 
 <div class="container">
+ <br><br><br>
+ <h1 class="center-heading">&nbsp;Learn Funny to Upgrade your skill</h1><br><br><br>
   <div class="row justify-content-center">
+
     <div class="col-sm-2 img-container">
-      <div class=" text-center">
+      <div class="card">
+      <div class=" text-center"><a href="programming/programming.html">
       <img src="coder.png" class="img-fluid" alt="Image 1">
+      <div class="text-overlay" ><h5 style="margin-top: 71px;">coder</h5></div></a>
     </div>
+  </div>
     </div>
     <div class="col-sm-2 img-container">
-      <div class=" text-center">
+      <div class="card">
+      <div class=" text-center"><a href="developer/developer.html">
       <img src="develop.png" class="img-fluid" alt="Image 2">
+      <div class="text-overlay" ><h5 style="margin-top: 71px;">Developer</h5></div></a>
+
     </div>
+      </div>
   </div>
     <div class="col-sm-2 img-container">
-      <div class=" text-center">
+      <div class="card">
+      <div class=" text-center"><a href="cyber/cyber.html">
       <img src="https://media.giphy.com/media/hvYgID7Os6JPje3AeE/giphy.gif" class="img-fluid" alt="Image 3">
+      <div class="text-overlay" ><h5 style="margin-top: 71px;">CyberSecurity</h5></div></a>
+
     </div>
+      </div>
   </div>
     <div class="col-sm-2 img-container">
-      <div class=" text-center">
+      <div class="card">
+      <div class=" text-center"><a href="app_develop/app_dev.html">
       <img src="design.png" class="img-fluid" alt="Image 4">
+      <div class="text-overlay" ><h5 style="margin-top: 71px;">Design</h5></div></a>
+
     </div>
+    </div>
+
     </div>
     <div class="col-sm-2 img-container">
-      <div class=" text-center">
+      <div class="card">
+      <div class=" text-center"><a href="data/data.html">
       <img src="data.png" class="img-fluid" alt="Image 5">
+      <div class="text-overlay" ><h5 style="margin-top: 71px;">Data</h5></div></a>
+
     </div>
     </div>
-  <h1>shiva <br>ganesz</h1>
-  <h1>just 1</h1>
+    </div>
   </div>
 </div>
 
