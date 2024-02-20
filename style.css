@@ -1,0 +1,86 @@
+a{
+    color: rgb(163, 11, 163);
+    text-decoration: none;
+/* margin-left: 50px; */
+    
+} 
+a:hover{
+    color: black;
+}
+
+body{
+    background-image: url("https://imgs.search.brave.com/xj-lBzwRMV3L6G8I72F5WnvdYK5UZYPZrU5V9YS9Pn0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ0/MjU0Ny5naWY.gif");
+    /* background-image: url("https://imgs.search.brave.com/yOuaM3SVWI70kd9Yx1fpUDEUpGW6TV85LYMtbKxismc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50c3RhdGljLnRl/Y2hnaWcuY29tL3Ro/dW1iL21zaWQtNzYz/NTQ3MTIsd2lkdGgt/ODAwLHJlc2l6ZW1v/ZGUtNC9Sb2FkbWFw/LXRvLWJlY29tZS1h/LXN1Y2Nlc3NmdWwt/cHJvZ3JhbW1lci5q/cGc_MjE2ODMx"); */
+     background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    background-color: rgb(58, 105, 146);
+    text-align:center;
+    width: 1110px;
+    height: 90px;
+    margin-top: 150px;
+}
+/* .main
+{
+    opacity: 0.5;
+    background-color: azure;
+    height: 300px;
+    width: 250px;
+} */
+td{
+    background-color: rgb(2, 2, 128);
+   
+    height: 330px;
+    width: 300px;
+}
+table{
+     border-spacing: 20px;
+}
+#img1:hover{
+    background-image: url("https://wallpaperaccess.com/full/1104685.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#img2:hover{
+    background-image: url("https://wallpaperaccess.com/full/3239459.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#img3:hover{
+    background-image: url("https://wallpaperaccess.com/full/3592910.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#img4:hover{
+    background-image: url("https://wallpaperaccess.com/full/1673408.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#img5:hover{
+    background-image: url("https://wallpaperaccess.com/full/418304.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+
+
+

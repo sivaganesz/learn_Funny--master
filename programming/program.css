@@ -1,0 +1,43 @@
+td {
+    background-color: rgb(124, 112, 136);
+    /* height: 20px; */
+    /* width: 245px; */
+    margin-left: 85px;
+    margin-top: 65px;
+    /* background-image: url("https://plus.unsplash.com/premium_photo-1682146029185-198922bd8350?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+img{
+    
+    margin-left: 85px;
+    margin-top: 130px;
+    width: 80px;
+    border-radius: 50px;
+}
+img:hover{
+    background-color: rgb(208, 208, 210);
+    background-image: url("https://digitalclassworld.com/e-learning/storage/app/app_resources/tutor/course_thumbnail/4595/course-thumbnail-1656497334.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#span1{
+    color: yellow;
+    margin-top: 98px;
+   font-size: 25px;
+}
+
+table{
+    width:100%;overflow:hidden;
+    border-spacing: 30px;
+    }
+
+    body{
+        background-image: url("https://imgs.search.brave.com/XsAE0Nm2tRWR43JsESdFXHrCaxStPZdfRsNA1K6qfuk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDI3NjM5/MDIuZ2lm.gif");
+    }
+/* 
+    https://imgs.search.brave.com/xj-lBzwRMV3L6G8I72F5WnvdYK5UZYPZrU5V9YS9Pn0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDQ0/MjU0Ny5naWY.gif */
+    

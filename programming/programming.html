@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <style>
+        /* Your custom styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center; /* Align text in the center of the page */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://media0.giphy.com/media/l4KhQo2MESJkc6QbS/giphy.gif?cid=ecf05e47ktd7e947de1x9he9evzmyxqxt49tnfflca4n06b3&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+        }
+    
+        .card-img-top {
+            max-width: 100%;
+            height: auto;
+            /* border-radius: 50%; Make images circular */
+            border: 5px solid rgb(221, 221, 221);
+            overflow: hidden; /* Ensure the image stays within the circular boundary */
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            /* Adjust image size for smaller screens */
+            .card-img-top {
+                max-width: 60%;
+            }
+        }
+        h5{
+            color: aliceblue;
+            font-weight: bold;
+            
+        }
+    </style>
+     <script>
+        function changeBackground1() {
+          document.body.style.backgroundImage = "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm0wMWs2cnF5YWU0a256MDd2a25odnI0eHhtdWdjYnBodXFxcDA1MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif')";
+            
+        }
+        function changeBackground2() {
+          document.body.style.backgroundImage = "url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWVzZTRjZjZ4OWE2dXp0c2ZzNjgzcG8yaW5memp0ODV1YXUzMXV5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9j5LELD2fSz2aYGGCe/giphy.gif')";
+        }
+        function changeBackground3() {
+          document.body.style.backgroundImage = "url('https://media2.giphy.com/media/PV1dPfaeac5a/giphy.webp?cid=790b7611g7b40tuiaw9xheyzz08mzehem9t695fz3v8y7mcd&ep=v1_gifs_search&rid=giphy.webp&ct=g')";
+        }
+        function changeBackground4() {
+          document.body.style.backgroundImage = "url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWtlbmoyaXkydGY3NWJmOXNqMmRuem00bTNuNmJtOTl0NjkxdXh1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpl1sod1vCXK0L2SUN/giphy.gif')";
+        }
+        function changeBackground5() {
+          document.body.style.backgroundImage = "url('https://pythonawesome.com/content/images/2021/06/main.gif')";
+        }
+      </script>
+     
+</head>
+<body>
+
+<div class="container">
+    <h1 id="h1" style="color: aliceblue;"> Programming</h1><br><br>
+
+    <!-- Repeat sections for website, video tutorials, coding practice platforms, documentation, and official resources... -->
+    <div class="row justify-content-center">
+        <!-- Course cards -->
+        <div class="col-md-3" onmouseover="changeBackground1()">
+            <div class=" text-center">
+                <a href="c.html" target="_blank">
+                    <img src="c.webp" alt="codechef" class="card-img-top">
+                </a>
+                <h5><br>C Programming</h5>
+            </div><br>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div class="col-md-3"onmouseover="changeBackground2()">
+            <div class=" text-center">
+                <a href="cpp.html" target="_blank">
+                    <img src="c++.png" alt="HackerRank" class="card-img-top">
+                </a>
+                <h5><br>C++ Programming</h5>
+            </div><br>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div class="col-md-3" onmouseover="changeBackground3()">
+            <div class=" text-center">
+                <a href="python.html" target="_blank">
+                    <img src="python.webp" alt="programiz" class="card-img-top">
+                </a>
+                <h5><br>Python Programming</h5>
+            </div><br>
+        </div>
+    </div><br>
+  
+    <div class="row justify-content-center">
+        <!-- Course cards -->
+        <div class="col-md-3" onmouseover="changeBackground4()">
+            <div class=" text-center">
+                <a href="java.html" target="_blank">
+                    <img src="java.webp" alt="codechef" class="card-img-top">
+                </a>
+                <h5><br>Java Programming</h5>
+            </div>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+
+        <div class="col-md-3" onmouseover="changeBackground5()">
+            <div class=" text-center">
+                <a href="mysql.html" target="_blank">
+                    <img src="sql.png" alt="HackerRank" class="card-img-top">
+                </a>
+                <h5><br>Mysql Programming</h5>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // Animate heading
+        $('h1').animate({
+            opacity: 1,
+            marginTop: '50px'
+        }, 3000);
+    });
+</script>
+
+
+
+</body>
+</html>

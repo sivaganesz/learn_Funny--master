@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <style>
+        /* Your custom styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center; /* Align text in the center of the page */
+        }
+        .card-img-top {
+            max-width: 100%;
+            height: auto;
+            /* border-radius: 50%; Make images circular */
+            border: 1px solid black;
+            overflow: hidden; /* Ensure the image stays within the circular boundary */
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            /* Adjust image size for smaller screens */
+            .card-img-top {
+                max-width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 id="h1">Online Courses:</h1><br><br>
+    <div class="row justify-content-center">
+        <!-- Course cards -->
+        
+        <div class="col-md-2">
+            <div class=" text-center">
+                <a href="https://www.udemy.com/course/introduction-to-programming-with-java/"  target="_blank">
+                    <img src="https://th.bing.com/th/id/OIP.EZ4aqzUVlp1pZsq3XXLssQHaHa?pid=ImgDet&w=178&h=178&c=7"
+                         alt="Udemy" class="card-img-top">
+                </a>
+                <h5><br>Udemy</h5>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class=" text-center">
+                <a href="https://www.codecademy.com/learn/learn-java" target="_blank">
+                    <img src="php.webp" alt="codecademy" class="card-img-top">
+                </a>
+                <h5><br>codecademy</h5>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class=" text-center">
+                <a href="https://www.edx.org/learn/java/the-hong-kong-university-of-science-and-technology-introduction-to-java-programming-part-1?index=product&objectID=course-ef4d812a-d160-4f21-bf8d-48bbb8deadfa&webview=false&campaign=Introduction+to+Java+Programming+%E2%80%93+Part+1&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fjava"  target="_blank">
+                    <img src="https://shorturl.at/aFGR2"
+                         alt="edx" class="card-img-top">
+                </a>
+                <h5><br>Edx</h5>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class=" text-center">
+                <a href="https://www.scaler.com/topics/course/java-beginners/"  target="_blank">
+                    <img src="https://cdn-1.webcatalog.io/catalog/scaler/scaler-icon-filled-256.png?v=1675591376469"
+                         alt="scaler" class="card-img-top">
+                </a>
+                <h5><br>scaler</h5>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class=" text-center">
+                <a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/java-programming" target="_blank">
+                    <img src="develop.png"
+                         alt="mygreatlearning" class="card-img-top">
+                </a>
+                <h5><br>GreatLearing</h5>
+            </div>
+        </div>
+    </div>
+
+          
+</div>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // Animate heading
+        $('h1').animate({
+            opacity: 1,
+            marginTop: '50px'
+        }, 3000);
+    });
+</script>
+
+<script>
+    document.getElementById("downloadLink").addEventListener("click", function() {
+      // Replace 'path/to/your/pdf.pdf' with the actual path to your PDF file
+      var pdfPath = 'Java_Program.pdf';
+  
+      var link = document.createElement('a');
+      link.href = pdfPath;
+      link.download = 'Java_programming.pdf'; // You can specify the name of the downloaded file here
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+  });
+  </script>
+
+</body>
+</html>

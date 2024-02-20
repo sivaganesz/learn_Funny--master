@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five Images in One Row</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .img-container {
+      padding: 10px; /* Adjust as needed */
+    }
+    @media (max-width: 768px) {
+            /* Adjust image size for smaller screens */
+            .img-fluid {
+                max-width: 50%;
+            }
+        }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="coder.png" class="img-fluid" alt="Image 1">
+    </div>
+    </div>
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="develop.png" class="img-fluid" alt="Image 2">
+    </div>
+  </div>
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="https://media.giphy.com/media/hvYgID7Os6JPje3AeE/giphy.gif" class="img-fluid" alt="Image 3">
+    </div>
+  </div>
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="design.png" class="img-fluid" alt="Image 4">
+    </div>
+    </div>
+    <div class="col-sm-2 img-container">
+      <div class=" text-center">
+      <img src="data.png" class="img-fluid" alt="Image 5">
+    </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
